@@ -1,0 +1,467 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kinross Veterinary Center</title>
+<meta name="keywords" content="veterinary, clinic, pets, dog, cat, Kinross Veterinary Center, Kincheloe, Michigan, Valerie Chadwick">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link href="assets/css/kinrossstyle5.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal6.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/modal.css" rel="stylesheet" type="text/css">
+<!----JS=-------->
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<!----JSend------->
+
+</head>
+
+
+<body>
+
+<div class="headcont">
+	<div class="maincol"><div class="banner"><img src="assets/gfx/logo.jpg" alt="logo" class="banner" /></div><br>
+	</div>
+	<div class="rightcol">
+    	<div class="rightcolcontact">
+      <p class="address">16946 S. Riley</p>
+	  <p class="address">Kincheloe, MI 49788</p>
+	  Phone:  906.495.1313<br />
+<img src="assets/gfx/spacer.png" style="width:23px; height:5px" />Fax: 906.495.1333<br />
+<a href="mailto:Kinrossveterinarycenter@gmail.com" class="email">Kinrossveterinarycenter@gmail.com</a><br />
+<div class="centerff"><a href="https://fearfreepets.com/resources/preferred-product-program/" target="_blank"><img src="assets/gfx/fearfreeprof.png" alt="fear free logo" class="banner" /></a></div>
+		</div>
+	</div>
+</div>
+
+<!--------------MENU------------------------>
+
+<div class="menubar">
+        <div class='menucont'>
+         	<div class="menuitemactivehidden">PET PHOTOS</div>
+            <div class='menuitem'><a href='index.html' class="menu">HOME</a></div>
+            <div class='menuitem'><a href='aboutus.html' class="menu">ABOUT US</a></div>
+            <div class='menuitem'><a href='services.html' class="menu">SERVICES</a></div>
+            <div class='menuitem'><a href='educational.html' class="menu"><span style="letter-spacing: 0px">EDUCATIONAL</span></a></div>
+            <div class='menuitem'><a href='behavior.html' class="menu">BEHAVIOR</a></div>
+              <div class="menuitemspry">
+        	  <ul id="MenuBar1" class="MenuBarHorizontal">
+        	    <li><a class="MenuBarItemSubmenu" href="contact.html">CONTACT</a>
+        	      <ul>
+        	        <li><a href="contact.html">Location</a></li>
+        	        <li><a href="appointment.html">Appointment</a></li>
+      	        </ul>
+      	      </li>
+        	  </ul>
+  			</div>
+        	<div class="menuitemactive">PET PHOTOS</div>
+            <!--<div class='menuitem'><a href='donate.html' class="menu">DONATE</a></div>-->
+            </div>
+    </div>
+    <div class="clear"></div>
+<!-------------------BODY-------------------------->
+
+<div class="bodycont">
+	<div class="maincol">
+    	<div class="maincontent">
+    
+    	<h1>Enjoy!</h1>
+    	<p>&nbsp;</p>
+        
+        <br />
+        <br />
+        <div class="row">
+<!------GALLERY --------
+  <div class="column">
+    <img src="assets/gfx/gallery/imgperm001.jpg" onclick="openModal();currentSlide(27)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/imgperm002.jpg" onclick="openModal();currentSlide(26)" class="hover-shadow">
+  </div>
+
+---END PERMANENT TOP------------->
+
+<div class="column">
+  <img src="assets/gfx/gallery/img025.jpeg" onclick="openModal();currentSlide(25)" class="hover-shadow">
+</div>
+<div class="column">
+  <img src="assets/gfx/gallery/img024.jpg" onclick="openModal();currentSlide(24)" class="hover-shadow">
+</div>
+<div class="column">
+  <img src="assets/gfx/gallery/img023.png" onclick="openModal();currentSlide(23)" class="hover-shadow">
+</div>
+   <div class="column">
+    <img src="assets/gfx/gallery/img022.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img021.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img020.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img019.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img018.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img017.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img016.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img015.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+  </div>
+  
+  <div class="column">
+    <img src="assets/gfx/gallery/img014.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img013.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img012.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img011.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  
+  <div class="column">
+    <img src="assets/gfx/gallery/img010.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img009.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img008.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img007.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    </div>
+    
+  <div class="column">
+    <img src="assets/gfx/gallery/img006.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img005.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  
+  <div class="column">
+    <img src="assets/gfx/gallery/img004.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img003.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img002.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="assets/gfx/gallery/img001.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1</div>
+      <img src="assets/gfx/gallery/img001.png" style="width:50%" style="display:inline" />
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">2</div>
+      <img src="assets/gfx/gallery/img002.jpg" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3</div>
+      <img src="assets/gfx/gallery/img003.jpg" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4</div>
+      <img src="assets/gfx/gallery/img004.png" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5</div>
+      <img src="assets/gfx/gallery/img005.jpg" style="width:100%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6</div>
+      <img src="assets/gfx/gallery/img006.jpg" style="width:100%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7</div>
+      <img src="assets/gfx/gallery/img007.jpg" style="width:38%" style="display:inline" />
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8</div>
+      <img src="assets/gfx/gallery/img008.jpg" style="width:90%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9</div>
+      <img src="assets/gfx/gallery/img009.jpg" style="width:75%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10</div>
+      <img src="assets/gfx/gallery/img010.jpg" style="width:55%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11</div>
+      <img src="assets/gfx/gallery/img011.jpg" style="width:43%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12</div>
+      <img src="assets/gfx/gallery/img012.jpg" style="width:50%" style="display:inline" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13</div>
+      <img src="assets/gfx/gallery/img013.jpg" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">14</div>
+      <img src="assets/gfx/gallery/img014.jpg" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">15</div>
+      <img src="assets/gfx/gallery/img015.jpg" style="width:38%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">16</div>
+      <img src="assets/gfx/gallery/img016.jpg" style="width:55%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">17</div>
+      <img src="assets/gfx/gallery/img017.jpg" style="width:50%" style="display:inline" />
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">18</div>
+      <img src="assets/gfx/gallery/img018.jpg" style="width:100%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">19</div>
+      <img src="assets/gfx/gallery/img019.jpg" style="width:100%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">20</div>
+      <img src="assets/gfx/gallery/img020.jpg" style="width:50%" style="display:inline" />
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">21</div>
+      <img src="assets/gfx/gallery/img021.jpg" style="width:50%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">22</div>
+      <img src="assets/gfx/gallery/img022.jpg" style="width:90%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">23</div>
+      <img src="assets/gfx/gallery/img023.png" style="width:90%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">24</div>
+      <img src="assets/gfx/gallery/img024.jpg" style="width:90%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">25</div>
+      <img src="assets/gfx/gallery/img025.jpeg" style="width:60%" style="display:inline" />
+    </div>
+    
+    <!------------
+    <div class="mySlides">
+      <div class="numbertext">26</div>
+      <img src="assets/gfx/gallery/imgperm002.jpg" style="width:100%" style="display:inline" />
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">25</div>
+      <img src="assets/gfx/gallery/imgperm001.jpg" style="width:100%" style="display:inline" />
+    </div>
+    -------------->
+    
+    <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <!------------------
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img006.jpg" onclick="currentSlide(6)" alt="Nap time.">
+    </div>
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img005.jpg" onclick="currentSlide(5)" alt="On the couch.">
+    </div>
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img004.jpg" onclick="currentSlide(4)" alt="Napping">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img003.jpg" onclick="currentSlide(3)" alt="Playing in the water.">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img002.jpg" onclick="currentSlide(2)" alt="Relaxin'">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="assets/gfx/gallery/img001.jpg" onclick="currentSlide(1)" alt="Rotties">
+    </div>
+    ----------------->
+  </div>
+</div>
+<!------GALLERY END---------->
+    	</div>
+
+		<div class="mainspacer">
+                <br />
+        	<br />
+        	<br />
+        	<br />
+
+		</div>
+        <br />
+        <br />
+        <div class="eminfo">
+          	<p class="em">For emergencies, after hours, <br />
+            weekends/holidays call us at:</p> 
+            <p class="emphone">906.495.1313</p> <br />
+
+            <img src="assets/gfx/logo2.jpg" alt="logo" class="logo2" /></p>
+        </div>
+		<div class="mainspacer">
+        	<br />
+        	<br />   
+
+			
+		</div>
+  </div>
+    <!-------------------BODY RIGHT COLUMN-------------------------->
+	<div class="rightcol">
+		<div class="mainspacer">
+                <br />
+                <br />
+		</div>
+    	<div class="hours">
+        <p style="font-weight:bold;">HOURS OF OPERATION:</p> 
+        <br />
+		  <div class="hourhead1">DAY</div>
+          <div class="hourhead2">OPEN</div>
+          <div class="hourhead2">CLOSE</div>
+            
+          <div class="hourbod1">Monday</div>
+          <div class="hourbod2">8:00am</div>
+          <div class="hourbod2">6:00pm</div>
+          
+          <div class="hourbod1">Tuesday</div>
+          <div class="hourbod2">8:00am</div>
+          <div class="hourbod2">7:00pm</div>
+          
+          <div class="hourbod1">Wednesday</div>
+          <div class="hourbod2">8:00am</div>
+          <div class="hourbod2">5:00pm</div>
+          
+          <div class="hourbod1">Thursday</div>
+          <div class="hourbod2">3:00pm</div>
+          <div class="hourbod2">8:00pm</div>
+          
+          <div class="hourbod1">Friday</div>
+          <div class="hourbod2">9:00am</div>
+          <div class="hourbod2">5:00pm</div>
+          
+          <div class="hourbod1">Saturday</div>
+          <div class="hourbod2">9:00am</div>
+          <div class="hourbod2">4:00pm</div>
+          
+          <div class="hourbod1">Sunday</div>
+          <div class="hourbod3">Closed</div>
+          <div class="hourbod3">---</div>
+
+          
+    	</div>
+        <br /><br />
+
+<div class="hours">
+        	<a href="appointment.html"><img src="assets/gfx/calendaricon.png" /> Make an appointment.</a>
+        </div>
+        
+      <div class="mainspacer">    
+        <br /><br />
+</div>
+	</div>
+</div>
+<!------------------FOOTER------------------------->
+    <div class='foot'>
+		Copyright © Kinross Veterinary Center
+    </div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+    </script>
+</body>
+</html>
