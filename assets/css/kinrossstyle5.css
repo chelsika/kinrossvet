@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ .text {
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+.mapcenter {
+	min-width: 340px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+body {
+	letter-spacing: 1px;
+	background-position: static;
+	background-attachment: fixed;
+	background-image: url('../gfx/bg2.jpg');
+	background-color:#b8e7f9;
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: normal;
+}
+
+img {
+	border: 0px;
+	}
+
+div.clear {
+	clear: both;	
+}
+
+
+* {
+  box-sizing: border-box;
+}
+/*HEADER----------------------------------------*/
+.headcont {
+	position: relative;
+	height: 330px;
+	width:80%;
+	max-width: 1100px;
+	min-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333333;
+}
+
+.maincol {
+	background-color:#ffffff;
+	padding:20px;
+	float:left;
+	width:70%;
+	min-height:100%;
+}
+.rightcol {
+	min-height:100%;
+	background-color:#333333;
+	padding:20px;
+	float:left;
+	width:30%;
+	color: #ffffff;
+}
+.rightcolcontact {
+	margin-top: 40px;
+	padding:20px;
+	float:left;
+	width:100%;
+	color: #ffffff;
+	text-align: center;
+	}
+div.banner{
+	display:block;
+	position:relative;
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+img.banner {
+	display: block;
+	max-width: 100%; 
+	height: auto; 
+}
+.centerff {
+	margin-top: 40px;
+	width: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+p.address {
+	font-size: large;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/*LINKS-----------------------------------*/
+
+a:link {
+    color: #0099cc;
+	text-decoration: none;
+}
+
+
+a:visited {
+    color: #0099cc;
+	text-decoration: none;
+}
+
+
+a:hover {
+    color: #33ccff;
+	text-decoration: none;
+}
+
+
+a:active {
+    color: #0099cc;
+	text-decoration: none;
+}
+
+a.email:link {
+    color: #ffffff;
+	text-decoration: none;
+	font-size: small;
+}
+
+
+a.email:visited {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+
+a.email:hover {
+    color: #33ccff;
+	text-decoration: none;
+}
+
+
+a.email:active {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+/*BODY----------------------------------------*/
+.bodycont {
+	height: 25%;
+	width:80%;
+	max-width: 1100px;
+	min-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333333;
+	overflow: auto;
+}
+
+.maincontent {
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.eminfo {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+.logo2 {
+
+	max-width: 450px;
+	display: inline;
+}
+.pageimage {
+	display: block;
+	float: right;
+	width: 50%;
+	margin-left: 15px;
+	}
+.pageimage2 {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-right: 15px;
+	}
+bio {
+	overflow: auto;
+	}
+.bioimage {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-right: 15px;
+	}
+.donate {
+	display: inline;	
+}
+.galleryimage {
+	width: 20%;
+	height: auto;	
+}
+.hours {
+	overflow: auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+.hourhead1 {
+	padding: 2px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-color: #ffffff;
+	float: left;
+	width: 40%;
+	text-align: left;
+	font-weight: bold;
+	font-size: small;
+	height: 22px;
+	}
+.hourhead2 {
+	padding: 2px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-color: #ffffff;
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-weight: bold;
+	font-size: small;
+	height: 22px;
+	}
+.hourbod1 {
+	padding: 2px;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-color: #999;
+	float: left;
+	width: 40%;
+	text-align: left;
+	font-size: small;
+	height: 20px;
+	}
+.hourbod2 {
+	padding: 2px;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-color: #999;
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: small;
+	height: 20px;
+	}
+.hourbod3 {
+	padding: 2px;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-color: #999;
+	float: left;
+	width: 30%;
+	text-align: right;
+	color: #999;
+	font-size: small;
+	height: 20px;
+	}
+nl {
+	width: 50px;
+	overflow: auto;
+
+}
+/*BODY text----------------------------------------*/
+
+h1 {
+	color: #cc3333;
+	font-size: x-large;
+}
+
+h2 {
+	color: #000000;
+	font-size: large;
+	font-weight: bold;
+}
+
+h3 {
+	color: #ffffff;
+	font-size: medium;
+}
+
+p.main{
+	font-size: medium;
+	text-align: justify;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+p.sb{
+	color: #ffffff;
+	font-size: medium;
+	text-align: justify;
+	line-height: 18px;
+	letter-spacing: 0px;
+}
+
+p.em {
+	font-size: large;
+	line-heigh: 22px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+p.emphone {
+	font-size: x-large;
+	}
+
+/*foot----------------------------------------*/
+
+.foot {
+	text-align:center;
+	padding:15px;
+	width: 100%;
+	float:left;	
+	background-color:#ffcc66;
+	min-width: 1100px;
+	font-size: small;
+	font-weight: bold;
+	}
+
+
+
+/*-------------------------RESIZE MEDIA QUERY*/
+
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+	.headcont, .maincol, .rightcol, .bodycont, .foot, .menubar {
+		width:100%;
+		min-width: 350px;
+	  }
+	  .newsletter, .maincontent {
+		width: 95%;  
+	  }
+	  .maincol, .rightcol {
+		padding-left: 0px;  
+		padding-right: 0px;
+	  }
+	.headcont{
+		height: auto;
+	}
+	
+	.rightcolcontact {
+		margin:0px;	
+		padding: 0px;
+	}
+	.centerff {
+		margin-top: 15px;
+	}
+	.mainspacer {
+		height: 0px;
+		width: 0px;
+		overflow: hidden;	
+	}
+	.logo2 {
+		width: 70%;	
+	}
+}
+
+@media (max-width:550px) {
+	.pageimage, .pageimage2, .bioimage {
+		width:100%;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+
+}
